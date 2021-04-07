@@ -1,4 +1,4 @@
-﻿using Basic.Topics;
+﻿using Basic.Topics.BuildInTypes;
 
 namespace Basic
 {
@@ -6,9 +6,8 @@ namespace Basic
     {
         private static void Main(string[] args)
         {
-            new BuildInTypes().Run();
-            new Keywords().Run();
-            new Topics.Abstract.Runner().Go();
+            new TopicRunner().Run();
+            new Topics.AbstractKeyword.TopicRunner().Run();
         }
     }
 }

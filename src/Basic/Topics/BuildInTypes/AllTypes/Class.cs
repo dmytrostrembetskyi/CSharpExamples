@@ -1,14 +1,8 @@
-﻿namespace Basic.Topics
+﻿namespace Basic.Topics.BuildInTypes.AllTypes
 {
-    public class BuildInTypes
+    public class Class
     {
-        public void Run()
-        {
-            Value();
-            Reference();
-        }
-
-        private void Value()
+        public void Value()
         {
             byte @byte;
             sbyte @sbyte;
@@ -31,7 +25,7 @@
             char @char;
         }
 
-        private void Reference()
+        public void Reference()
         {
             object @object;
             string @string;
