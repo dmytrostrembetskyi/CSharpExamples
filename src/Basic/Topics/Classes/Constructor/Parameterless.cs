@@ -1,10 +1,12 @@
 ﻿namespace Basic.Topics.Classes.Constructor
 {
-    public class Hardcoded
+    public class Parameterless
     {
         private int _field1;
+        private long _field2;
+        private string _field3;
 
-        public Hardcoded()
+        public Parameterless()
         {
             _field1 = 1;
         }

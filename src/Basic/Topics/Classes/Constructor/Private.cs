@@ -2,16 +2,22 @@
 {
     public class Private
     {
+        private int field1;
+        private int field2;
+
         private Private()
         {
         }
 
-        private Private(int parameter1)
+        private Private(int field1)
         {
+            this.field1 = field1;
         }
 
-        private Private(int parameter1, int parameter2)
+        private Private(int field1, int field2)
         {
+            this.field1 = field1;
+            this.field2 = field2;
         }
 
         public static Private Create()

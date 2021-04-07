@@ -1,4 +1,4 @@
-﻿using Basic.Topics.Classes.Creation;
+﻿using Basic.Topics.Classes.Constructor;
 
 namespace Basic.Topics.Classes
 {
@@ -7,7 +7,6 @@ namespace Basic.Topics.Classes
         public void Run()
         {
             new ExampleRunner().Run();
-            new Constructor.ExampleRunner().Run();
         }
     }
 }

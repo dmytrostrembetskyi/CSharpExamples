@@ -4,7 +4,7 @@
     {
         public void Run()
         {
-            var default1 = new Basic();
+            var default1 = new Default();
 
             // var withParameters1 = new WithParameters();
             var withParameters2 = new WithParameters(1);
@@ -21,7 +21,7 @@
             var copy1 = new CopyInstance {Property1 = 1, Property2 = 1};
             var copy2 = new CopyInstance(copy1);
 
-            var hardcoded1 = new Hardcoded();
+            var parameterless1 = new Parameterless();
 
             var overloaded1 = new Overloaded(1);
             var overloaded2 = new Overloaded(1, 1);

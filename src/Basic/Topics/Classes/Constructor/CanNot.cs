@@ -9,5 +9,21 @@
         // public sealed CanNot()
         // {
         // }
+
+        // public readonly CanNot()
+        // {
+        // }
+
+        // public const CanNot()
+        // {
+        // }
+
+        // public void CanNot()
+        // {
+        // }
+
+        // public int CanNot()
+        // {
+        // }
     }
 }

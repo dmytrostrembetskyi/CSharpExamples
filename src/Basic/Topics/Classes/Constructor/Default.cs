@@ -1,6 +1,6 @@
 ﻿namespace Basic.Topics.Classes.Constructor
 {
-    public class Basic
+    public class Default
     {
     }
 }
