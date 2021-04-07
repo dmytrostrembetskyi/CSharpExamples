@@ -1,4 +1,4 @@
-﻿namespace Basic.Topics.Classes.Constructor
+﻿namespace Basic.Topics.Classes.Constructor.Examples
 {
     public class Private
     {

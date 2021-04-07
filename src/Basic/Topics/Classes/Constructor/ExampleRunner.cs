@@ -1,4 +1,6 @@
-﻿namespace Basic.Topics.Classes.Constructor
+﻿using Basic.Topics.Classes.Constructor.Examples;
+
+namespace Basic.Topics.Classes.Constructor
 {
     public class ExampleRunner
     {
@@ -25,6 +27,8 @@
 
             var overloaded = new Overloaded(1);
             var overloaded2 = new Overloaded(1, 1);
+
+            var hasReturn = new HasReturn(1, 1);
 
             var canNot = new CanNot();
         }

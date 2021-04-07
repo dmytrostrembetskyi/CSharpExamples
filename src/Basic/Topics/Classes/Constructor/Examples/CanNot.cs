@@ -1,7 +1,12 @@
-﻿namespace Basic.Topics.Classes.Constructor
+﻿namespace Basic.Topics.Classes.Constructor.Examples
 {
     public class CanNot
     {
+        // public CanNot()
+        // {
+        //     return this;
+        // }
+
         // public abstract CanNot()
         // {
         // }
