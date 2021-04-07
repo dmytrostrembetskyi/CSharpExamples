@@ -7,6 +7,7 @@ namespace Basic.Topics.Classes
         public void Run()
         {
             new ExampleRunner().Run();
+            new Constants.ExampleRunner().Run();
         }
     }
 }

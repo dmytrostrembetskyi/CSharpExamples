@@ -4,29 +4,29 @@
     {
         public void Run()
         {
-            var default1 = new Default();
+            var @default = new Default();
 
-            // var withParameters1 = new WithParameters();
+            // var withParameters = new WithParameters();
             var withParameters2 = new WithParameters(1);
             var withParameters3 = new WithParameters(1, 1);
 
-            // var private1 = new Private();
+            // var private = new Private();
             var private2 = Private.Create();
             var private3 = Private.Create(1);
             var private4 = Private.Create(1, 1);
 
-            var privateWithNested1 = new PrivateWithNested.Nested();
-            var privateWithNested2 = privateWithNested1.Create();
+            var privateWithNested = new PrivateWithNested.Nested();
+            var privateWithNested2 = privateWithNested.Create();
 
-            var copy1 = new CopyInstance {Property1 = 1, Property2 = 1};
-            var copy2 = new CopyInstance(copy1);
+            var copy = new CopyInstance {Property1 = 1, Property2 = 1};
+            var copy2 = new CopyInstance(copy);
 
-            var parameterless1 = new Parameterless();
+            var parameterless = new Parameterless();
 
-            var overloaded1 = new Overloaded(1);
+            var overloaded = new Overloaded(1);
             var overloaded2 = new Overloaded(1, 1);
 
-            var canNot1 = new CanNot();
+            var canNot = new CanNot();
         }
     }
 }
