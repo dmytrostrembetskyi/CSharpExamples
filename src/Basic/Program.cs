@@ -8,6 +8,7 @@ namespace Basic
         {
             new BuildInTypes().Run();
             new Keywords().Run();
+            new Topics.Abstract.Runner().Go();
         }
     }
 }

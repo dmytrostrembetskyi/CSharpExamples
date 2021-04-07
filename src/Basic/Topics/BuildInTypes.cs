@@ -18,6 +18,7 @@
             ulong @ulong;
             short @short;
             ushort @ushort;
+
             nint nint;
             nuint nuint;
 
