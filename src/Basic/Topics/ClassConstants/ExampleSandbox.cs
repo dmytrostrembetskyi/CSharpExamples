@@ -15,18 +15,8 @@ namespace Basic.Topics.ClassConstants
             var @private = new Private().Get();
 
             var calculated = Calculated.Const3;
-
-            var allowedTypes = AllowedTypes.Numeric;
-            var allowedTypes2 = AllowedTypes.Numeric2;
-            var allowedTypes3 = AllowedTypes.Numeric3;
-            var allowedTypes4 = AllowedTypes.Boolean;
-            var allowedTypes5 = AllowedTypes.Boolean2;
-            var allowedTypes6 = AllowedTypes.String;
-            var allowedTypes7 = AllowedTypes.String2;
-            var allowedTypes8 = AllowedTypes.Object;
-            var allowedTypes9 = AllowedTypes.Dynamic;
-            var allowedTypes10 = AllowedTypes.Action;
-            var allowedTypes11 = AllowedTypes.Array;
+            
+            new AllowedTypes().StepIn();
 
             var buildIn = Math.PI;
 

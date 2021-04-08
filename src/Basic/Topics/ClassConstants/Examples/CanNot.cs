@@ -15,7 +15,7 @@
 
         // public const int BeWithoutInitialization;
 
-        // const object BeAnyObject = new object();
+        // const object BeAnyObjectButString = new object();
 
         // const int[] BeArray = new int[0];
         // const string[] BeArray2 = new[] {"one"};
