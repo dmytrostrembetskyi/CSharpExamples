@@ -15,8 +15,10 @@ namespace Basic.Topics.ClassConstants
             var @private = new Private().Get();
 
             var calculated = Calculated.Const3;
-            
+
             new AllowedTypes().StepIn();
+
+            new AccessModifiers().StepIn();
 
             var buildIn = Math.PI;
 
