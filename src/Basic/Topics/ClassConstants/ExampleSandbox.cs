@@ -1,9 +1,9 @@
 ﻿using System;
-using Basic.Topics.Classes.Constants.Examples;
+using Basic.Topics.ClassConstants.Examples;
 
-namespace Basic.Topics.Classes.Constants
+namespace Basic.Topics.ClassConstants
 {
-    public class ExampleRunner
+    public class ExampleSandbox
     {
         public void Run()
         {

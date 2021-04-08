@@ -1,8 +1,8 @@
-﻿using Basic.Topics.Classes.Constructor.Examples;
+﻿using Basic.Topics.ClassConstructor.Examples;
 
-namespace Basic.Topics.Classes.Constructor
+namespace Basic.Topics.ClassConstructor
 {
-    public class ExampleRunner
+    public class ExampleSandbox
     {
         public void Run()
         {

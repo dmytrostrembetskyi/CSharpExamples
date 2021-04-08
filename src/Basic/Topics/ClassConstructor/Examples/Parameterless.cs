@@ -1,4 +1,4 @@
-﻿namespace Basic.Topics.Classes.Constructor.Examples
+﻿namespace Basic.Topics.ClassConstructor.Examples
 {
     public class Parameterless
     {

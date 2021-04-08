@@ -2,7 +2,7 @@
 
 // ReSharper disable BuiltInTypeReferenceStyle
 
-namespace Basic.Topics.Classes.Constants.Examples
+namespace Basic.Topics.ClassConstants.Examples
 {
     public class AllowedTypes
     {
