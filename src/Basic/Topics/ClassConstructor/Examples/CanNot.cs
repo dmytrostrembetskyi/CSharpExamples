@@ -4,6 +4,21 @@
     {
         // public CanNot()
         // {
+        // }
+        // public CanNot(int parameter1) : this() : base()
+        // {
+        // }
+
+        // static CanNot(int parameter1)
+        // {
+        // }
+
+        // public static CanNot()
+        // {
+        // }
+
+        // public CanNot()
+        // {
         //     return this;
         // }
 
@@ -11,23 +26,7 @@
         // {
         // }
 
-        // public sealed CanNot()
-        // {
-        // }
-
-        // public readonly CanNot()
-        // {
-        // }
-
-        // public const CanNot()
-        // {
-        // }
-
         // public void CanNot()
-        // {
-        // }
-
-        // public int CanNot()
         // {
         // }
     }

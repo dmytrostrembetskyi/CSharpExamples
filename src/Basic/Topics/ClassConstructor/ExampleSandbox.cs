@@ -15,7 +15,6 @@ namespace Basic.Topics.ClassConstructor
             // var private = new Private();
             var private2 = Private.Create();
             var private3 = Private.Create(1);
-            var private4 = Private.Create(1, 1);
 
             var privateWithNested = new PrivateWithNested.Nested();
             var privateWithNested2 = privateWithNested.Create();
@@ -30,7 +29,28 @@ namespace Basic.Topics.ClassConstructor
 
             var hasReturn = new HasReturn(1, 1);
 
+            var @static = Static.Field2;
+            var static2 = new Static(1);
+
+            var staticClass = StaticClass.Field;
+
+            var inherited = new Inherited(1);
+            var inherited2 = new Inherited();
+
+            var initializeReadonly = new InitializeReadonly(1);
+
+            var nestedWithStatic = new OuterWithStatic.InnerWithStatic();
+            OuterStatic.InnerStatic.StepIn();
+
+            // var @private = new AccessModifiers();
+            // var @protected = new AccessModifiers(1);
+            var @internal = new AccessModifiers(1, 1);
+            var protectedInternal = new AccessModifiers(1, 1, 1);
+            // var @privateProtected = new AccessModifiers(1, 1, 1, 1);
+            var @public = new AccessModifiers(1, 1, 1, 1, 1);
+
             var canNot = new CanNot();
+            CanNotBeInStaticClass.Debug();
         }
     }
 }
