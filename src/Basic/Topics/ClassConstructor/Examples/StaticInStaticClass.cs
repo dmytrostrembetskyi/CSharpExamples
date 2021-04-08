@@ -1,10 +1,10 @@
 ﻿namespace Basic.Topics.ClassConstructor.Examples
 {
-    public static class StaticClass
+    public static class StaticInStaticClass
     {
         public static int Field;
 
-        static StaticClass()
+        static StaticInStaticClass()
         {
             Field = 1;
         }

@@ -32,15 +32,15 @@ namespace Basic.Topics.ClassConstructor
             var @static = Static.Field2;
             var static2 = new Static(1);
 
-            var staticClass = StaticClass.Field;
+            var staticClass = StaticInStaticClass.Field;
 
             var inherited = new Inherited(1);
             var inherited2 = new Inherited();
 
-            var initializeReadonly = new InitializeReadonly(1);
+            var initializeReadonly = new InitializeReadonlyWithStatic(1);
 
-            var nestedWithStatic = new OuterWithStatic.InnerWithStatic();
-            OuterStatic.InnerStatic.StepIn();
+            var nestedWithStatic = new OuterWithStatic.InnerWithStatic(1);
+            var innerStaticClass = OuterStaticClass.InnerStaticClass.Field;
 
             // var @private = new AccessModifiers();
             // var @protected = new AccessModifiers(1);
@@ -50,7 +50,7 @@ namespace Basic.Topics.ClassConstructor
             var @public = new AccessModifiers(1, 1, 1, 1, 1);
 
             var canNot = new CanNot();
-            CanNotBeInStaticClass.Debug();
+            CanNotBeInStaticClass.StepIn();
         }
     }
 }

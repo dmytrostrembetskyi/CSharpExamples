@@ -1,16 +1,16 @@
 ﻿namespace Basic.Topics.ClassConstructor.Examples
 {
-    public class InitializeReadonly
+    public class InitializeReadonlyWithStatic
     {
         private static readonly int _field2;
         private readonly int _field;
 
-        static InitializeReadonly()
+        static InitializeReadonlyWithStatic()
         {
             _field2 = 1;
         }
 
-        public InitializeReadonly(int field)
+        public InitializeReadonlyWithStatic(int field)
         {
             _field = field;
         }
