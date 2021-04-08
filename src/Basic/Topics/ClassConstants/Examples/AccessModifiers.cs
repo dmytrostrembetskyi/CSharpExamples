@@ -1,8 +1,10 @@
-﻿namespace Basic.Topics.ClassConstants.Examples
+﻿// ReSharper disable ArrangeTypeMemberModifiers
+
+namespace Basic.Topics.ClassConstants.Examples
 {
     public class AccessModifiers
     {
-        private const int _field1 = 1;
+        const int _field1 = 1;
         private const int _field2 = 1;
         protected const int _field3 = 1;
         internal const int _field4 = 1;
