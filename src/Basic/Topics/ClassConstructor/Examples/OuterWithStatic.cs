@@ -1,4 +1,8 @@
-﻿namespace Basic.Topics.ClassConstructor.Examples
+﻿// ReSharper disable MemberHidesStaticFromOuterClass
+// ReSharper disable NotAccessedField.Local
+
+#pragma warning disable 414
+namespace Basic.Topics.ClassConstructor.Examples
 {
     public class OuterWithStatic
     {

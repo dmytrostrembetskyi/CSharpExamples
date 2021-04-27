@@ -1,4 +1,6 @@
-﻿namespace Basic.Topics.ClassConstructor.Examples
+﻿// ReSharper disable MemberHidesStaticFromOuterClass
+
+namespace Basic.Topics.ClassConstructor.Examples
 {
     public static class OuterStaticClass
     {

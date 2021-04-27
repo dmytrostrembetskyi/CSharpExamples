@@ -2,6 +2,8 @@
 using Basic.Topics.ClassConstants;
 using Basic.Topics.Void;
 
+// ReSharper disable UnusedParameter.Local
+
 namespace Basic
 {
     internal class Program

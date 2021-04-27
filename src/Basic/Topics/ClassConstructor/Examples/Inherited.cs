@@ -1,4 +1,6 @@
-﻿namespace Basic.Topics.ClassConstructor.Examples
+﻿// ReSharper disable UnusedParameter.Local
+
+namespace Basic.Topics.ClassConstructor.Examples
 {
     public class Inherited : Parent
     {

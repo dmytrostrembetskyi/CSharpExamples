@@ -1,4 +1,6 @@
-﻿namespace Basic.Topics.AbstractKeyword.Properties
+﻿// ReSharper disable UnassignedGetOnlyAutoProperty
+
+namespace Basic.Topics.AbstractKeyword.Properties
 {
     internal class Class : Abstract
     {

@@ -1,4 +1,5 @@
 ﻿// ReSharper disable ArrangeTypeMemberModifiers
+// ReSharper disable UnusedParameter.Local
 
 namespace Basic.Topics.ClassConstructor.Examples
 {

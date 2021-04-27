@@ -1,13 +1,16 @@
-﻿namespace Basic.Topics.ClassConstructor.Examples
+﻿// ReSharper disable NotAccessedField.Local
+
+#pragma warning disable 414
+namespace Basic.Topics.ClassConstructor.Examples
 {
     public class InitializeReadonlyWithStatic
     {
-        static readonly int _field2;
+        static readonly int Field2;
         readonly int _field;
 
         static InitializeReadonlyWithStatic()
         {
-            _field2 = 1;
+            Field2 = 1;
         }
 
         public InitializeReadonlyWithStatic(int field)
