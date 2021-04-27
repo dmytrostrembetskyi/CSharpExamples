@@ -4,7 +4,7 @@
     {
         public CanBeUsedWithTypeOfOperator()
         {
-            var variable = typeof(void);
+            var typeSystemVoid = typeof(void);
         }
     }
 }
