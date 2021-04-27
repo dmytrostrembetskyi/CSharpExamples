@@ -2,11 +2,11 @@
 {
     public class Private
     {
-        private Private()
+        Private()
         {
         }
 
-        private Private(int field1)
+        Private(int field1)
         {
         }
 

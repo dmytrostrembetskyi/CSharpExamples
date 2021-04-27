@@ -2,8 +2,8 @@
 {
     public class HasReturn
     {
-        private int _field1;
-        private int _field2;
+        int _field1;
+        int _field2;
 
         public HasReturn(int field1, int field2)
         {

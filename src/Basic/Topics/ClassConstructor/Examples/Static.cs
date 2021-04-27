@@ -3,7 +3,7 @@
     public class Static
     {
         public static int Field2;
-        private int _field1;
+        int _field1;
 
         static Static()
         {

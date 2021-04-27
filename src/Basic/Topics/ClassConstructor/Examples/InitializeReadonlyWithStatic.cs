@@ -2,8 +2,8 @@
 {
     public class InitializeReadonlyWithStatic
     {
-        private static readonly int _field2;
-        private readonly int _field;
+        static readonly int _field2;
+        readonly int _field;
 
         static InitializeReadonlyWithStatic()
         {

@@ -1,4 +1,6 @@
-﻿namespace Basic.Topics.ClassConstructor.Examples
+﻿// ReSharper disable ArrangeTypeMemberModifiers
+
+namespace Basic.Topics.ClassConstructor.Examples
 {
     public class AccessModifiers
     {

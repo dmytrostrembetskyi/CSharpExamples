@@ -2,8 +2,8 @@
 {
     public class Overloaded
     {
-        private int _field1;
-        private int _field2;
+        int _field1;
+        int _field2;
 
         public Overloaded(int field1)
         {

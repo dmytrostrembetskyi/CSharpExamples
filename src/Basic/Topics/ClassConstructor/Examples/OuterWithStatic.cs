@@ -2,8 +2,8 @@
 {
     public class OuterWithStatic
     {
-        private static int _field2;
-        private int _field1;
+        static int _field2;
+        int _field1;
 
         static OuterWithStatic()
         {
@@ -17,8 +17,8 @@
 
         public class InnerWithStatic
         {
-            private static int _field2;
-            private int _field1;
+            static int _field2;
+            int _field1;
 
             static InnerWithStatic()
             {

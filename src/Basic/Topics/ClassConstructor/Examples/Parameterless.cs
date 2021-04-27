@@ -2,9 +2,9 @@
 {
     public class Parameterless
     {
-        private int _field1;
-        private long _field2;
-        private string _field3;
+        int _field1;
+        long _field2;
+        string _field3;
 
         public Parameterless()
         {

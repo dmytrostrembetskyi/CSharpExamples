@@ -1,16 +1,18 @@
 ﻿using Basic.Topics.BuildInTypes;
 using Basic.Topics.ClassConstants;
+using Basic.Topics.Void;
 
 namespace Basic
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
             new TopicRunner().Run();
             new Topics.AbstractKeyword.TopicRunner().Run();
             new ExampleSandbox().Run();
             new Topics.ClassConstructor.ExampleSandbox().Run();
+            new ExampleRunner();
         }
     }
 }

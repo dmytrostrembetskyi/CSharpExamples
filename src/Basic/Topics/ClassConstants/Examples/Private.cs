@@ -2,7 +2,7 @@
 {
     public class Private
     {
-        private const int Const = 1;
+        const int Const = 1;
 
         public int Get()
         {

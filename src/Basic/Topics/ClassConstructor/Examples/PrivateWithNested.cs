@@ -2,7 +2,7 @@
 {
     public class PrivateWithNested
     {
-        private PrivateWithNested()
+        PrivateWithNested()
         {
         }
 

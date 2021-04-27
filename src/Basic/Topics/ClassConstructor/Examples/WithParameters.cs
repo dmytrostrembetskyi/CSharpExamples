@@ -2,9 +2,9 @@
 {
     public class WithParameters
     {
-        private int field1;
-        private int field2;
-        private int field3;
+        int field1;
+        int field2;
+        int field3;
 
         public WithParameters(int field1)
         {
