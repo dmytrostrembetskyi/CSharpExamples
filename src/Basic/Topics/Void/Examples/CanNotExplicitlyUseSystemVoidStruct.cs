@@ -1,8 +1,8 @@
 ﻿namespace Basic.Topics.Void.Examples
 {
-    public class CanNotExplicitlyUseSystemVoid
+    public class CanNotExplicitlyUseSystemVoidStruct
     {
-        public CanNotExplicitlyUseSystemVoid()
+        public CanNotExplicitlyUseSystemVoidStruct()
         {
         }
 

@@ -1,4 +1,5 @@
-﻿using Basic.Topics.Void.Examples;
+﻿
+using Basic.Topics.Void.Examples;
 
 namespace Basic.Topics.Void
 {
@@ -12,10 +13,14 @@ namespace Basic.Topics.Void
             new CanBeStatic();
             new CanBeUsedWithTypeOfOperator();
             new CanBeUsedWithUnsafeCode();
+            new CanBeExpression();
+            new UsefulForSideEffects();
+            new CanThrowException();
 
+            new CanNotReturnValue();
             new CanNotBeAssignedToVariable();
             new CanNotBeVariableType();
-            new CanNotExplicitlyUseSystemVoid();
+            new CanNotExplicitlyUseSystemVoidStruct();
         }
     }
 }
