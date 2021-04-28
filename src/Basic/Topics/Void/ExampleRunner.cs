@@ -1,5 +1,4 @@
-﻿
-using Basic.Topics.Void.Examples;
+﻿using Basic.Topics.Void.Examples;
 
 namespace Basic.Topics.Void
 {

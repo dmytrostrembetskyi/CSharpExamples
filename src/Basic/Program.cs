@@ -1,4 +1,5 @@
-﻿using Basic.Topics.BuildInTypes;
+﻿using Basic.Topics.ArithmeticOperators;
+using Basic.Topics.BuildInTypes;
 using Basic.Topics.ClassConstants;
 using Basic.Topics.Void;
 
@@ -15,6 +16,7 @@ namespace Basic
             new ExampleSandbox().Run();
             new Topics.ClassConstructor.ExampleSandbox().Run();
             new ExampleRunner();
+            new _ExampleRunner();
         }
     }
 }
