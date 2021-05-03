@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace V3
+﻿namespace V3
 {
     public class Class1
     {

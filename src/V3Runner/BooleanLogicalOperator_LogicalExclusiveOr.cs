@@ -1,13 +1,15 @@
-﻿namespace V3Runner
+﻿using System;
+
+namespace V3Runner
 {
     internal class BooleanLogicalOperator_LogicalExclusiveOr
     {
         public BooleanLogicalOperator_LogicalExclusiveOr()
         {
-            GenerateTrueIfBothOperatorsAreDifferent();
+            ForBoolGenerateTrueIfBothOperatorsAreDifferent();
         }
 
-        void GenerateTrueIfBothOperatorsAreDifferent()
+        void ForBoolGenerateTrueIfBothOperatorsAreDifferent()
         {
             var a = true ^ true;
             var b = true ^ false;
