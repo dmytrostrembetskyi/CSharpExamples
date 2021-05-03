@@ -1,0 +1,27 @@
+#!csharp
+
+var a = true && false;
+Console.Write(a);
+
+#!csharp
+
+var a = true && true && false;
+Console.Write(a);
+
+#!csharp
+
+bool SecondOperand()
+{
+    Console.Write("Second operand is evaluated.");
+    return true;
+}
+
+#!csharp
+
+bool a = false && SecondOperand();
+Console.Write(a);
+
+#!csharp
+
+bool a = true && SecondOperand();
+Console.Write(a);

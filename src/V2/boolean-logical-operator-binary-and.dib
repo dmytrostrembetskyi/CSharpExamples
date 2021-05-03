@@ -1,0 +1,24 @@
+#!csharp
+
+var a = true & false;
+Console.Write(a);
+
+#!csharp
+
+var a = false & true & true;
+Console.Write(a);
+
+#!csharp
+
+bool Operand(int number) {
+    Console.Write(number);
+    return false;
+}
+
+#!csharp
+
+var a = true & Operand(1);
+
+#!csharp
+
+var a = false & Operand(1);

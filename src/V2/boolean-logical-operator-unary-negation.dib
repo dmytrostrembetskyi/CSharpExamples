@@ -1,0 +1,25 @@
+#!csharp
+
+bool a = !true;
+Console.Write(a);
+
+#!csharp
+
+bool a = !false;
+Console.Write(a);
+
+#!csharp
+
+bool a;
+bool b = !a;
+Console.Write(a);
+
+#!csharp
+
+bool a = !!true;
+Console.Write(a);
+
+#!csharp
+
+bool a = !!!!!!!!!false;
+Console.Write(a);
