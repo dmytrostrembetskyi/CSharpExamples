@@ -10,6 +10,7 @@ csharp_default_private_modifier = implicit
 
 resharper_redundant_jump_statement_highlighting = none
 resharper_empty_constructor_highlighting = none
+resharper_redundant_logical_conditional_expression_operand_highlighting = none
 
 resharper_heuristic_unreachable_code_highlighting = hint
 resharper_unused_variable_highlighting = hint
@@ -17,7 +18,6 @@ resharper_unused_member_local_highlighting = hint
 resharper_object_creation_as_statement_highlighting = hint
 resharper_not_accessed_variable_highlighting = hint
 resharper_redundant_assignment_highlighting = hint
-
-# noinspection EditorConfigKeyCorrectness
-[_ExampleRunner.cs]
 resharper_inconsistent_naming_highlighting = hint
+resharper_condition_is_always_true_or_false_highlighting = hint
+resharper_double_negation_operator_highlighting = hint
