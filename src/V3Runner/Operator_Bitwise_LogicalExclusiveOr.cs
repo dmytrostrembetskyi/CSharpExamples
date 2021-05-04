@@ -2,9 +2,9 @@
 
 namespace V3Runner
 {
-    internal class BooleanLogicalOperator_BitwiseLogicalExclusiveOr
+    internal class Operator_Bitwise_LogicalExclusiveOr
     {
-        public BooleanLogicalOperator_BitwiseLogicalExclusiveOr()
+        public Operator_Bitwise_LogicalExclusiveOr()
         {
             GenerateOneWhenBothNumbersAreDifferent();
             GenerateZeroWhenBothNumbersAreTheSame();

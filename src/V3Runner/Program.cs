@@ -4,10 +4,17 @@
     {
         static void Main(string[] args)
         {
-            new BooleanLogicalOperatorUnaryNegation();
-            new BooleanLogicalOperator_Conditional_Logical_Or();
-            new BooleanLogicalOperator_LogicalExclusiveOr();
-            new BooleanLogicalOperator_BitwiseLogicalExclusiveOr();
+            new Operator_BooleanLogical_Negation();
+            new Operator_BooleanLogical_And();
+            new Operator_BooleanLogical_Or();
+            new Operator_BooleanLogical_ExclusiveOr();
+            new Operator_BooleanLogical_ConditionalOr();
+            new Operator_BooleanLogical_ConditionalAnd();
+
+            new Operator_Bitwise_LogicalExclusiveOr();
+
+            // todo review 
+            new BooleanLogicalOperator_Precedence();
         }
     }
 }
