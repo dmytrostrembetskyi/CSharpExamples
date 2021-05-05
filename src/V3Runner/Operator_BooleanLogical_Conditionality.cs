@@ -12,7 +12,7 @@
 
         void CanNotBeAppliedToUnary()
         {
-            var itIsNotConditionality = !!!Operand(true);
+            var itIsNotConditionality = !!Operand(true);
         }
 
         void MakeNoSenseToBeAppliedToExclusiveOr()

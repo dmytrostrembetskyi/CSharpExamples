@@ -1,21 +1,21 @@
-﻿using System.Runtime.InteropServices;
-
-namespace V3Runner
+﻿namespace V3Runner
 {
     internal class Operator_BooleanLogical_Precedence
     {
         public Operator_BooleanLogical_Precedence()
         {
+            CanBeControlledByParenthesis();
+
             NegationIsBeforeAnd();
             AndIsBeforeExclusiveOr();
             ExclusiveOrIsBeforeOr();
             OrIsBeforeConditionalAnd();
             ConditionalAndIsBeforeConditionalOr();
 
-            AllInExample();
+            AllExample();
         }
 
-        void AllInExample()
+        void AllExample()
         {
             var inPrecedenceOrder = !true & true ^ true | true && true || true;
             var inReverseOrder = true || true && true | true ^ true & !true;
@@ -49,6 +49,15 @@ namespace V3Runner
         {
             var a = true & !true;
             var b = true & true;
+        }
+
+        void CanBeControlledByParenthesis()
+        {
+            var a = !true & false;
+            var b = !(true & false);
+
+            var c = true || true || true && false;
+            var d = (true || true || true) && false;
         }
     }
 }

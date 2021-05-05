@@ -9,6 +9,9 @@ namespace Basic.Topics.Void.Examples
             Method();
         }
 
-        void Method() => Console.Write("");
+        void Method()
+        {
+            Console.Write("");
+        }
     }
 }
