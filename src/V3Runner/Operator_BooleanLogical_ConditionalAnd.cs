@@ -5,19 +5,6 @@
         public Operator_BooleanLogical_ConditionalAnd()
         {
             ReturnTrueWhenAllOperandsAreTrue();
-            StopEvaluateOperatorsWhenFindFalse();
-        }
-
-        void StopEvaluateOperatorsWhenFindFalse()
-        {
-            bool Operator()
-            {
-                return true;
-            }
-
-            var a = true && Operator();
-            var b = false && Operator();
-            var c = true && !Operator() && Operator();
         }
 
         void ReturnTrueWhenAllOperandsAreTrue()

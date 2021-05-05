@@ -10,10 +10,15 @@
             new Operator_BooleanLogical_ExclusiveOr();
             new Operator_BooleanLogical_ConditionalOr();
             new Operator_BooleanLogical_ConditionalAnd();
+            
+            new Operator_BooleanLogical_CompoundAssignment();
+            new Operator_BooleanLogical_Precedence();
+            new Operator_BooleanLogical_Conditionality();
 
             new Operator_Bitwise_LogicalExclusiveOr();
 
             // todo review 
+            new Operator_BooleanLogical_Precedence_TODO();
             new BooleanLogicalOperator_Precedence();
         }
     }

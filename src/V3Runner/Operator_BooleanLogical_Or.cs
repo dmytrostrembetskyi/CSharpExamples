@@ -5,18 +5,6 @@
         public Operator_BooleanLogical_Or()
         {
             ReturnTrueWhenOneOfOperandIsTrue();
-            EvaluateAllOperandsEvenThereIsNoSense();
-        }
-
-        void EvaluateAllOperandsEvenThereIsNoSense()
-        {
-            bool Operand()
-            {
-                return false;
-            }
-
-            var a = true | Operand();
-            var b = false | Operand();
         }
 
         void ReturnTrueWhenOneOfOperandIsTrue()

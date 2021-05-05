@@ -5,19 +5,6 @@
         public Operator_BooleanLogical_ConditionalOr()
         {
             ReturnTrueWhenAtLeastOneOperandIsTrue();
-            StopEvaluateOperatorsWhenFindTrue();
-        }
-
-        void StopEvaluateOperatorsWhenFindTrue()
-        {
-            bool Operator()
-            {
-                return true;
-            }
-
-            var a = true || Operator();
-            var b = false || Operator();
-            var c = false || !Operator() || Operator();
         }
 
         void ReturnTrueWhenAtLeastOneOperandIsTrue()

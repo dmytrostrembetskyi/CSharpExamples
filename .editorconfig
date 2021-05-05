@@ -23,3 +23,6 @@ resharper_inconsistent_naming_highlighting = hint
 resharper_condition_is_always_true_or_false_highlighting = hint
 resharper_double_negation_operator_highlighting = hint
 resharper_class_never_instantiated_global_highlighting = hint
+resharper_replace_with_simple_assignment_false_highlighting = hint
+resharper_replace_with_simple_assignment_true_highlighting = hint
+resharper_redundant_assignment_highlighting = hint

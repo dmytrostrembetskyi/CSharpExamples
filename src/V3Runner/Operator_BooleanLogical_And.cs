@@ -4,22 +4,10 @@
     {
         public Operator_BooleanLogical_And()
         {
-            GenerateTrueWhenAllOperandsAreTrue();
-            EvaluateAllOperandsEvenThereIsNoSense();
+            ReturnTrueWhenAllOperandsAreTrue();
         }
 
-        void EvaluateAllOperandsEvenThereIsNoSense()
-        {
-            bool Operand()
-            {
-                return false;
-            }
-
-            var a = true & Operand();
-            var b = false & Operand();
-        }
-
-        void GenerateTrueWhenAllOperandsAreTrue()
+        void ReturnTrueWhenAllOperandsAreTrue()
         {
             var a = true & true;
             var b = false & false;
