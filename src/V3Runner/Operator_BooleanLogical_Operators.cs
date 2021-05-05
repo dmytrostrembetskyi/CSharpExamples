@@ -8,7 +8,7 @@
             ExclusiveOrReturnTrueWhenBothOperandsAreDifferent();
 
             AndReturnTrueWhenAllOperandsAreTrue();
-            ConditionalAndIdSimilarToAnd();
+            ConditionalAndIsSimilarToAnd();
 
             OrReturnTrueWhenAtLeastOneOperandIsTrue();
             ConditionalOrIsSimilarToOr();
@@ -26,7 +26,7 @@
             var h = false || false || false;
         }
 
-        void ConditionalAndIdSimilarToAnd()
+        void ConditionalAndIsSimilarToAnd()
         {
             var a = true && true;
             var b = false && false;
