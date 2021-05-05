@@ -26,3 +26,4 @@ resharper_class_never_instantiated_global_highlighting = hint
 resharper_replace_with_simple_assignment_false_highlighting = hint
 resharper_replace_with_simple_assignment_true_highlighting = hint
 resharper_redundant_assignment_highlighting = hint
+resharper_equal_expression_comparison_highlighting = hint
