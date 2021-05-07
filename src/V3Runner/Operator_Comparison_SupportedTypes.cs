@@ -22,13 +22,11 @@
             CharIsUsingUnderlyingValue();
             EnumIsUsingUnderlyingValue();
 
+            BooleanIsNotSupported();
             StringIsNotSupported();
             ObjectIsNotSupported();
-            BooleanIsNotSupported();
-            
+
             DynamicIsDependOnAssignedType();
-            
-            ReturnFalseIfAnyOperandIsNaN();
         }
 
         void BooleanIsNotSupported()
@@ -39,15 +37,6 @@
             // var f = true >= true;
         }
 
-        void ReturnFalseIfAnyOperandIsNaN()
-        {
-            var nan = 0 / 0D;
-            var c = 1 < nan;
-            var d = 1 > nan;
-            var e = 1 <= nan;
-            var f = 1 >= nan;
-        }
-
         void DynamicIsDependOnAssignedType()
         {
             dynamic a = 1;
@@ -56,7 +45,7 @@
             var d = a > b;
             var e = a <= b;
             var f = a >= b;
-            
+
             dynamic g = "1";
             dynamic h = "2";
             // var i = g < h;

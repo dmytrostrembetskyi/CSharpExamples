@@ -19,7 +19,10 @@
             new Operator_Comparison_SupportedTypes();
             new Operator_Comparison_Overloading();
             new Operator_Comparison_Precedence();
-            
+            new Operator_Comparison_NaN();
+
+            new Operator_TypeTesting_BasicExample();
+            new Operator_TypeTesting_Conditions();
         }
     }
 }
