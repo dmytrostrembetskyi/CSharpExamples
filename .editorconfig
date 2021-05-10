@@ -15,6 +15,7 @@ resharper_redundant_jump_statement_highlighting = none
 resharper_empty_constructor_highlighting = none
 resharper_redundant_logical_conditional_expression_operand_highlighting = none
 resharper_unused_parameter_local_highlighting = none
+resharper_constant_conditional_access_qualifier_highlighting = none
 
 resharper_heuristic_unreachable_code_highlighting = hint
 resharper_unused_variable_highlighting = hint
@@ -35,3 +36,4 @@ resharper_equal_expression_comparison_highlighting = hint
 resharper_suspicious_type_conversion_global_highlighting = hint
 resharper_unused_type_parameter_highlighting = hint
 resharper_convert_to_local_function_highlighting = hint
+resharper_operator_is_can_be_used_highlighting = hint

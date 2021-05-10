@@ -10,10 +10,8 @@
             new Operator_BooleanLogical_Conditionality();
             new Operator_BooleanLogical_Overloading();
             new Operator_BooleanLogical_Associativity();
-            // todo Nullable Boolean logical operators
 
             new Operator_Bitwise_LogicalExclusiveOr();
-            // todo bitwise operators
 
             new Operator_Comparison_Operators();
             new Operator_Comparison_SupportedTypes();
@@ -22,7 +20,7 @@
             new Operator_Comparison_NaN();
 
             new Operator_TypeTesting_BasicExample();
-            new Operator_TypeTesting_Conditions();
+            new Operator_TypeTesting_Comparison();
         }
     }
 }
