@@ -21,6 +21,11 @@
 
             new Operator_TypeTesting_BasicExample();
             new Operator_TypeTesting_Comparison();
+
+            new ImplicitNumericConversion_Comparison();
+            new ImplicitNumericConversion_LossOfPrecision();
+            new ImplicitNumericConversion_FromLitaral();
+            
         }
     }
 }
