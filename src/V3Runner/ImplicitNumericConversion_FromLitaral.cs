@@ -6,10 +6,79 @@ namespace V3Runner
     {
         public ImplicitNumericConversion_FromLitaral()
         {
-            NoSufixLiteral();
+            NoSufixIntegralLiteral();
+            NoSuffixDoubleLiteral();
+            FloatLiteral();
+            DecimalLiteral();
         }
 
-        static void NoSufixLiteral()
+        void DecimalLiteral()
+        {
+            // sbyte a = 1.0m;
+            // byte b = 1.0m;
+            // short c = 1.0m;
+            // ushort d = 1.0m;
+            // int e = 1.0m;
+            // uint m = 1.0m;
+            // long g = 1.0m;
+            // ulong h = 1.0m;
+            // nint i = 1.0m;
+            // nuint j = 1.0m;
+
+            // float k = 1.0m;
+            // double l = 1.0m;
+
+            decimal m = 1.0m;
+        }
+
+        void FloatLiteral()
+        {
+            // sbyte a = 1.0f;
+            // byte b = 1.0f;
+            // short c = 1.0f;
+            // ushort d = 1.0f;
+            // int e = 1.0f;
+            // uint f = 1.0f;
+            // long g = 1.0f;
+            // ulong h = 1.0f;
+            // nint i = 1.0f;
+            // nuint j = 1.0f;
+
+            float k = 1.0f;
+            float k2 = 340282349999999999999999999999999999999.0f;
+            // float k3 = 340282359999999999999999999999999999999.0f;
+            
+            double l = 1.0f;
+            double l2 = 340282349999999999999999999999999999999.0f;
+            // double l3 = 340282359999999999999999999999999999999.0f;
+
+            // decimal m = 1.0f;
+        }
+
+        void NoSuffixDoubleLiteral()
+        {
+            // sbyte a = 1.0;
+            // byte b = 1.0;
+            // short c = 1.0;
+            // ushort d = 1.0;
+            // int e = 1.0;
+            // uint f = 1.0;
+            // long g = 1.0;
+            // ulong h = 1.0;
+            // nint i = 1.0;
+            // nuint j = 1.0;
+
+            // float k = 1.0;
+            double l = 1.0;
+            double l2 =
+                179769313486231579999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999.0;
+            // double l3 =
+            //  179769313486231589999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999.0;
+
+            // decimal m = 1.0;
+        }
+
+        static void NoSufixIntegralLiteral()
         {
             sbyte a = 127;
             // sbyte a2 = 128;
