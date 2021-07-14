@@ -2,9 +2,9 @@
 
 namespace V3Runner
 {
-    internal class ImplicitNumericConversion_Comparison
+    internal class ImplicitNumericConversion
     {
-        public ImplicitNumericConversion_Comparison()
+        public ImplicitNumericConversion()
         {
             Sbyte();
             Byte();

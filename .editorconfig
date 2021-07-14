@@ -39,3 +39,4 @@ resharper_convert_to_local_function_highlighting = hint
 resharper_operator_is_can_be_used_highlighting = hint
 resharper_comment_typo_highlighting = hint
 resharper_identifier_typo_highlighting = hint
+resharper_try_cast_always_succeeds_highlighting = hint

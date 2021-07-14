@@ -21,11 +21,17 @@
 
             new Operator_TypeTesting_BasicExample();
             new Operator_TypeTesting_Comparison();
+            
+            
+            new ImplicitIdentityConversion();
 
-            new ImplicitNumericConversion_Comparison();
+            new ImplicitNumericConversion();
             new ImplicitNumericConversion_LossOfPrecision();
             new ImplicitNumericConversion_FromLitaral();
-            
+
+            new AsOperator();
+            new CastOperator();
+
         }
     }
 }
