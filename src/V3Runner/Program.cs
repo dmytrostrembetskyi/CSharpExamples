@@ -1,4 +1,6 @@
-﻿namespace V3Runner
+﻿
+
+namespace V3Runner
 {
     internal class Program
     {
@@ -28,6 +30,7 @@
             new ImplicitNumericConversion();
             new ImplicitNumericConversion_LossOfPrecision();
             new ImplicitNumericConversion_FromLitaral();
+            new Conversion_Implicit_Enumeration();
 
             new AsOperator();
             new CastOperator();
