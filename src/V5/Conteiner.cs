@@ -11,7 +11,11 @@ namespace V5
             new Case3();
             new Case4();
             new Case5();
+            
             new Conversion.Implicit.InterpolatedString.Case1();
+            
+            new Conversion.Implicit.Nullable.Case1();
+            new Conversion.Implicit.Nullable.Case2();
         }
     }
 }
