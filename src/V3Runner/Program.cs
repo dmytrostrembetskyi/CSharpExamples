@@ -21,6 +21,7 @@
 
             new Operator_TypeTesting_BasicExample();
             new Operator_TypeTesting_Comparison();
+            new Operator_TypeConversion_Comparison();
         }
     }
 }
