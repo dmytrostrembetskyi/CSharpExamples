@@ -1,4 +1,6 @@
-﻿namespace V3Runner
+﻿
+
+namespace V3Runner
 {
     internal class Program
     {
@@ -21,6 +23,18 @@
 
             new Operator_TypeTesting_BasicExample();
             new Operator_TypeTesting_Comparison();
+            
+            
+            new ImplicitIdentityConversion();
+
+            new ImplicitNumericConversion();
+            new ImplicitNumericConversion_LossOfPrecision();
+            new ImplicitNumericConversion_FromLitaral();
+            new Conversion_Implicit_Enumeration();
+
+            new AsOperator();
+            new CastOperator();
+
             new Operator_TypeConversion_Comparison();
         }
     }

@@ -10,31 +10,32 @@ namespace V3Runner
     {
         public Operator_TypeTesting_Comparison()
         {
+            IdentityConversion();
+            Boxing();
+            TypeParameters();
+
             ReferenceTypeToObject();
-            ReferenceTypeToDynamic();
             DerivedFromClass();
             ImplementInterface();
             ArrayToOtherArray();
-            ArrayToSystemArrayItsInterfaces();
+            ArrayToSystemArrayOrItsInterfaces();
             ArrayToList();
             Delegate();
-            IdentityConversion();
-            TypeParameters();
-
-            Boxing();
             Nullable();
-
-            WhenHigherOnSameHierarchy();
             NumericConversion();
+
+            ReferenceTypeToDynamic();
+
+            //event
         }
 
         void TypeParameters()
         {
             var a = new TypeParametersExample<string>();
-            
+
             var c = a is TypeParametersExample<string>;
             var c2 = a.GetType() == typeof(TypeParametersExample<string>);
-            
+
             var d = a is TypeParametersExample<object>;
             var d2 = a.GetType() == typeof(TypeParametersExample<object>);
         }
@@ -65,7 +66,7 @@ namespace V3Runner
             var f = shouldBeSingleDimensioned is IList<string[]>;
         }
 
-        void ArrayToSystemArrayItsInterfaces()
+        void ArrayToSystemArrayOrItsInterfaces()
         {
             var a = new object[1];
             var b = a is Array;
@@ -95,7 +96,7 @@ namespace V3Runner
         {
             var a = new UriTypeConverter();
             var b = a is dynamic;
-            // var b2 = a.GetType() == typeof(dynamic);
+            // var dynamicTypeIsNowExists = a.GetType() == typeof(dynamic);
 
             var c = "h";
             var d = c is dynamic;
@@ -115,20 +116,9 @@ namespace V3Runner
         void NumericConversion()
         {
             var a = 1;
-            
-            var b = a is int;
-            var b2 = a.GetType() == typeof(int);
-            
+
             var c = a is long;
             var c2 = a.GetType() == typeof(long);
-        }
-
-        void WhenHigherOnSameHierarchy()
-        {
-            var d = new Hashtable();
-            
-            var e = d is PropertyCollection;
-            var e2 = d.GetType() == typeof(PropertyCollection);
         }
 
         void Nullable()
@@ -136,7 +126,7 @@ namespace V3Runner
             int? a = 1;
             var b = a is int;
             var b2 = a.GetType() == typeof(int);
-            
+
             a = null;
             var c = a is int;
             // var c2_throwException = a.GetType() == typeof(int);
@@ -145,7 +135,7 @@ namespace V3Runner
             var d = "hello";
             var e = d is string;
             var e2 = d.GetType() == typeof(string);
-            
+
             d = null;
             var f = d is string;
             // var f2_throwException = d.GetType() == typeof(string);
@@ -156,7 +146,7 @@ namespace V3Runner
         {
             var a = 1;
             object b = a;
-            
+
             var c = b is int;
             var c2 = b.GetType() == typeof(int);
         }
@@ -170,12 +160,10 @@ namespace V3Runner
 
         void DerivedFromClass()
         {
-            var a = new SystemException();
-            var b = a is SystemException;
-            var b2 = a.GetType() == typeof(SystemException);
+            var a = new Child();
 
-            var c = a is Exception;
-            var c2 = a.GetType() == typeof(Exception);
+            var c = a is Parent;
+            var c2 = a.GetType() == typeof(Parent);
         }
 
         void IdentityConversion()
@@ -187,6 +175,14 @@ namespace V3Runner
         }
 
         class TypeParametersExample<T>
+        {
+        }
+
+        class Parent
+        {
+        }
+
+        class Child : Parent
         {
         }
     }
