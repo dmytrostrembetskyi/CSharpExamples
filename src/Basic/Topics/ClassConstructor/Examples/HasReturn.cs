@@ -1,5 +1,7 @@
 ﻿// ReSharper disable NotAccessedField.Local
 
+#pragma warning disable 162
+
 namespace Basic.Topics.ClassConstructor.Examples
 {
     public class HasReturn

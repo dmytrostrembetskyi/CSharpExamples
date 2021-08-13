@@ -1,4 +1,7 @@
-﻿namespace V3Runner
+﻿#pragma warning disable 183
+#pragma warning disable 184
+
+namespace V3Runner
 {
     internal class Operator_TypeTesting_BasicExample
     {

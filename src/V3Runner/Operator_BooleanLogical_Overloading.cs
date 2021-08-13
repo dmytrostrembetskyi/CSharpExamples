@@ -1,4 +1,5 @@
 ﻿// ReSharper disable RedundantAssignment
+
 namespace V3Runner
 {
     internal class Operator_BooleanLogical_Overloading

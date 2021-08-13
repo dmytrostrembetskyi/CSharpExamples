@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 
+#pragma warning disable 183
+#pragma warning disable 184
+#pragma warning disable 1981
+
 // ReSharper disable ConditionIsAlwaysTrueOrFalse
 // ReSharper disable IsExpressionAlwaysTrue
 // ReSharper disable SuspiciousTypeConversion.Global
