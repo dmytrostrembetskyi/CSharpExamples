@@ -33,6 +33,8 @@ namespace V5
             new C5FromInterfaceToInterface();
             new C6ArrayToArray();
             new C7ArrayToSystemArray();
+            new C8ArrayToIList();
+            
             
         }
     }
