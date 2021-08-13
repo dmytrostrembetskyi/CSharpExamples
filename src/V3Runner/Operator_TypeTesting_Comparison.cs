@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// ReSharper disable ConditionIsAlwaysTrueOrFalse
 // ReSharper disable IsExpressionAlwaysTrue
 // ReSharper disable SuspiciousTypeConversion.Global
 // ReSharper disable UnusedTypeParameter

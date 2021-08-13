@@ -1,4 +1,6 @@
-﻿namespace V3Runner
+﻿// ReSharper disable NotAccessedVariable
+
+namespace V3Runner
 {
     internal class Operator_BooleanLogical_CompoundAssignment
     {

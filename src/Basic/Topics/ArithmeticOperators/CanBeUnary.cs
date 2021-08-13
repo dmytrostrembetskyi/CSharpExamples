@@ -1,4 +1,6 @@
-﻿namespace Basic.Topics.ArithmeticOperators
+﻿// ReSharper disable NotAccessedVariable
+
+namespace Basic.Topics.ArithmeticOperators
 {
     internal class CanBeUnary
     {
