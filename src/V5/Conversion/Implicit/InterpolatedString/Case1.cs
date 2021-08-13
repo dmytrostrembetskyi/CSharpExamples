@@ -1,5 +1,8 @@
 ﻿using System;
 
+// ReSharper disable SuggestVarOrType_BuiltInTypes
+// ReSharper disable PossiblyMistakenUseOfInterpolatedStringInsert
+
 namespace V5.Conversion.Implicit.InterpolatedString
 {
     public class Case1

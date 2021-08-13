@@ -10,7 +10,7 @@
         }
     }
 
-    enum TestEnum
+    internal enum TestEnum
     {
         First,
         Secod

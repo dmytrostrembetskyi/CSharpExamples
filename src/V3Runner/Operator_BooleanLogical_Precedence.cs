@@ -1,4 +1,7 @@
-﻿namespace V3Runner
+﻿// ReSharper disable RedundantLogicalConditionalExpressionOperand
+// ReSharper disable All
+
+namespace V3Runner
 {
     internal class Operator_BooleanLogical_Precedence
     {

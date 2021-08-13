@@ -1,9 +1,8 @@
-﻿using System;
-using V5;
+﻿using V5;
 
 namespace V5Runner
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {

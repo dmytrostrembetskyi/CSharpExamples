@@ -12,8 +12,8 @@
             return 0;
         }
     }
-    
-    enum Enum2
+
+    internal enum Enum2
     {
         First,
         Second

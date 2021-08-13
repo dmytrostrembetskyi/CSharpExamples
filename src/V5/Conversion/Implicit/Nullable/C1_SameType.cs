@@ -1,4 +1,6 @@
-﻿namespace V5.Conversion.Implicit.Nullable
+﻿// ReSharper disable SuggestVarOrType_BuiltInTypes
+
+namespace V5.Conversion.Implicit.Nullable
 {
     public class C1_SameType
     {

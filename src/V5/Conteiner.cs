@@ -1,6 +1,7 @@
 ﻿using V5.Conversion.Implicit.Enumeration;
 using V5.Conversion.Implicit.Nullable;
 using V5.Conversion.Implicit.NullLiteral;
+using V5.Conversion.Implicit.Reference;
 
 namespace V5
 {
@@ -22,8 +23,8 @@ namespace V5
 
             new ToAnyNullableType();
 
-            new Conversion.Implicit.Reference.AnyReferenceToObject();
-            new Conversion.Implicit.Reference.Case();
+            new AnyReferenceToObject();
+            new Case();
         }
     }
 }

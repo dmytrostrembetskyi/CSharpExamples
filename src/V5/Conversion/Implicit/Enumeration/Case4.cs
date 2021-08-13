@@ -1,4 +1,6 @@
-﻿namespace V5.Conversion.Implicit.Enumeration
+﻿// ReSharper disable SuggestVarOrType_SimpleTypes
+
+namespace V5.Conversion.Implicit.Enumeration
 {
     public class Case4
     {
@@ -11,14 +13,14 @@
             // Enum a5 = 2 - 1 + 0 + 1;
             Enum a6 = 2 - 1 - 1 + 0;
             // Enum a7 = 2 - 1 - 1 + 0 + 1;
-            Enum a8 = (0L & 1);
-            Enum a9 = (1 & 0L);
+            Enum a8 = 0L & 1;
+            Enum a9 = 1 & 0L;
             // Enum a10 = 10 / 10;
             Enum a11 = 0 | 0 | Enum.First;
         }
     }
 
-    enum Enum
+    internal enum Enum
     {
         First,
         Second
