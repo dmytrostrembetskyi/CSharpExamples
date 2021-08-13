@@ -34,7 +34,7 @@ namespace V5
             new C6ArrayToArray();
             new C7ArrayToSystemArray();
             new C8ArrayToIList();
-            
+            new C9Delegate();
             
         }
     }
