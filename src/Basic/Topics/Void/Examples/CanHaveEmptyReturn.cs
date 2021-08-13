@@ -1,4 +1,7 @@
-﻿namespace Basic.Topics.Void.Examples
+﻿// ReSharper disable RedundantJumpStatement
+// ReSharper disable HeuristicUnreachableCode
+
+namespace Basic.Topics.Void.Examples
 {
     public class CanHaveEmptyReturn
     {

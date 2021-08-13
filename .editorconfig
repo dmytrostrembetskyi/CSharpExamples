@@ -12,12 +12,9 @@ dotnet_diagnostic.CS1718.severity = silent
 
 csharp_default_private_modifier = implicit
 
-resharper_redundant_jump_statement_highlighting = none
 resharper_empty_constructor_highlighting = none
-resharper_redundant_logical_conditional_expression_operand_highlighting = none
-resharper_unused_parameter_local_highlighting = none
-resharper_constant_conditional_access_qualifier_highlighting = none
 
+resharper_unused_parameter_local_highlighting = hint
 resharper_unused_variable_highlighting = hint
 resharper_unused_member_local_highlighting = hint
 resharper_object_creation_as_statement_highlighting = hint
