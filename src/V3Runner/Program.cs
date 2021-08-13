@@ -32,6 +32,8 @@
 
             new AsOperator();
             new CastOperator();
+
+            new Operator_TypeConversion_Comparison();
         }
     }
 }
