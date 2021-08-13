@@ -1,4 +1,6 @@
-﻿namespace V3Runner
+﻿// ReSharper disable EqualExpressionComparison
+
+namespace V3Runner
 {
     internal class Operator_Comparison_Operators
     {

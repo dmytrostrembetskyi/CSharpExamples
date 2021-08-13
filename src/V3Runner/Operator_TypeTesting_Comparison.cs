@@ -1,6 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// ReSharper disable IsExpressionAlwaysTrue
+// ReSharper disable SuspiciousTypeConversion.Global
+// ReSharper disable UnusedTypeParameter
+// ReSharper disable OperatorIsCanBeUsed
+
 namespace V3Runner
 {
     internal class Operator_TypeTesting_Comparison

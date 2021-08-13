@@ -8,6 +8,7 @@ dotnet_diagnostic.CS0162.severity = silent
 dotnet_diagnostic.CS0183.severity = silent
 dotnet_diagnostic.CS0184.severity = silent
 dotnet_diagnostic.CS1981.severity = silent
+dotnet_diagnostic.CS1718.severity = silent
 
 csharp_default_private_modifier = implicit
 
@@ -29,14 +30,3 @@ resharper_double_negation_operator_highlighting = hint
 resharper_class_never_instantiated_global_highlighting = hint
 resharper_replace_with_simple_assignment_false_highlighting = hint
 resharper_replace_with_simple_assignment_true_highlighting = hint
-resharper_redundant_assignment_highlighting = hint
-resharper_equal_expression_comparison_highlighting = hint
-resharper_is_expression_always_true_highlighting = hint
-resharper_equal_expression_comparison_highlighting = hint
-resharper_suspicious_type_conversion_global_highlighting = hint
-resharper_unused_type_parameter_highlighting = hint
-resharper_convert_to_local_function_highlighting = hint
-resharper_operator_is_can_be_used_highlighting = hint
-resharper_comment_typo_highlighting = hint
-resharper_identifier_typo_highlighting = hint
-resharper_try_cast_always_succeeds_highlighting = hint
