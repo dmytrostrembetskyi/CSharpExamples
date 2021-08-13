@@ -1,4 +1,6 @@
-﻿namespace V5.Conversion.Implicit.C3Enumeration
+﻿// ReSharper disable UnusedMember.Global
+
+namespace V5.Conversion.Implicit.C3Enumeration
 {
     public class Case1
     {
@@ -13,6 +15,6 @@
     internal enum TestEnum
     {
         First,
-        Secod
+        Second
     }
 }

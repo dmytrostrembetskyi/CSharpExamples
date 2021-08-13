@@ -1,10 +1,11 @@
 ﻿// ReSharper disable SuggestVarOrType_BuiltInTypes
+// ReSharper disable ConvertToConstant.Local
 
 namespace V5.Conversion.Implicit.C5Nullable
 {
-    public class C1_SameType
+    public class C1SameType
     {
-        public C1_SameType()
+        public C1SameType()
         {
             int a = 1;
             int? a2 = a;

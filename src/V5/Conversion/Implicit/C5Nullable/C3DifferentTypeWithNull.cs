@@ -2,9 +2,9 @@
 
 namespace V5.Conversion.Implicit.C5Nullable
 {
-    public class C3_DifferentType_WithNull
+    public class C3DifferentTypeWithNull
     {
-        public C3_DifferentType_WithNull()
+        public C3DifferentTypeWithNull()
         {
             int? a = null;
             long? a2 = a;

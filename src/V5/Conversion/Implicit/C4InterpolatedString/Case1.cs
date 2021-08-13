@@ -1,5 +1,6 @@
 ﻿using System;
 
+// ReSharper disable CommentTypo
 // ReSharper disable SuggestVarOrType_BuiltInTypes
 // ReSharper disable PossiblyMistakenUseOfInterpolatedStringInsert
 

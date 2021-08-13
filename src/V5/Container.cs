@@ -4,6 +4,8 @@ using V5.Conversion.Implicit.C6NullLiteral;
 using V5.Conversion.Implicit.C7Reference;
 using V5.Conversion.Implicit.Enumeration;
 
+// ReSharper disable ObjectCreationAsStatement
+
 namespace V5
 {
     public class Container
@@ -18,9 +20,9 @@ namespace V5
 
             new Conversion.Implicit.C4InterpolatedString.Case1();
 
-            new C1_SameType();
-            new C2_DifferentType_WithValue();
-            new C3_DifferentType_WithNull();
+            new C1SameType();
+            new C2DifferentTypeWithValue();
+            new C3DifferentTypeWithNull();
 
             new ToAnyNullableType();
 

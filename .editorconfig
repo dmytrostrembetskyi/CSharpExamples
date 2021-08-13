@@ -2,15 +2,17 @@
 
 # noinspection EditorConfigKeyCorrectness
 [*.cs]
-dotnet_diagnostic.CS0219.severity = suggestion
+dotnet_diagnostic.CS0219.severity = silent
 dotnet_diagnostic.CS0168.severity = suggestion
 
 csharp_default_private_modifier = implicit
 
 resharper_empty_constructor_highlighting = none
+resharper_unused_variable_highlighting = none
 
 resharper_unused_parameter_local_highlighting = hint
-resharper_unused_variable_highlighting = hint
 resharper_unused_member_local_highlighting = hint
 resharper_object_creation_as_statement_highlighting = hint
 resharper_inconsistent_naming_highlighting = hint
+
+resharper_class_never_instantiated_global_highlighting = hint

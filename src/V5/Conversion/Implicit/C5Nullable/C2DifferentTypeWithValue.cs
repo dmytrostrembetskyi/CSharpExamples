@@ -1,10 +1,11 @@
 ﻿// ReSharper disable SuggestVarOrType_BuiltInTypes
+// ReSharper disable ConvertToConstant.Local
 
 namespace V5.Conversion.Implicit.C5Nullable
 {
-    public class C2_DifferentType_WithValue
+    public class C2DifferentTypeWithValue
     {
-        public C2_DifferentType_WithValue()
+        public C2DifferentTypeWithValue()
         {
             int? a = 1;
             long? a2 = a;

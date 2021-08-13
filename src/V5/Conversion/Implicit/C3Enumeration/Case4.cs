@@ -1,4 +1,5 @@
 ﻿// ReSharper disable SuggestVarOrType_SimpleTypes
+// ReSharper disable UnusedMember.Global
 
 namespace V5.Conversion.Implicit.C3Enumeration
 {
