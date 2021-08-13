@@ -10,7 +10,6 @@ namespace V3Runner
 
         void ImplicitNumericConversion()
         {
-            
         }
 
         void ImplicitIdentityConversion()

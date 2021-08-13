@@ -1,4 +1,7 @@
-﻿namespace V3Runner
+﻿// ReSharper disable EqualExpressionComparison
+// ReSharper disable ConvertToConstant.Local
+
+namespace V3Runner
 {
     internal class Operator_Comparison_NaN
     {
