@@ -19,7 +19,7 @@ namespace Basic.Topics.ClassConstructor
             var privateWithNested = new PrivateWithNested.Nested();
             var privateWithNested2 = privateWithNested.Create();
 
-            var copy = new CopyInstance {Property1 = 1, Property2 = 1};
+            var copy = new CopyInstance { Property1 = 1, Property2 = 1 };
             var copy2 = new CopyInstance(copy);
 
             var parameterless = new Parameterless();

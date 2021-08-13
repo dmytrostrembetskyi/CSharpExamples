@@ -36,7 +36,7 @@ namespace V3Runner
             // ulong i = a;
             // nint j = a;
             // nuint k = a;
-            
+
             // float l = a;
             // double m = a;
         }
@@ -55,7 +55,7 @@ namespace V3Runner
             // ulong i = a;
             // nint j = a;
             // nuint k = a;
-            
+
             // float l = a;
             // decimal n = a;
         }
@@ -74,7 +74,7 @@ namespace V3Runner
             // ulong i = a;
             // nint j = a;
             // nuint k = a;
-            
+
             double m = a;
             // decimal n = a;
         }
@@ -92,7 +92,7 @@ namespace V3Runner
             // long h = a;
             ulong i = a;
             // nint j = a;
-            
+
             float l = a;
             double m = a;
             decimal n = a;
@@ -111,7 +111,7 @@ namespace V3Runner
             long h = a;
             // ulong i = a;
             // nuint k = a;
-            
+
             float l = a;
             double m = a;
             decimal n = a;
@@ -130,7 +130,7 @@ namespace V3Runner
             // long h = a;
             // nint j = a;
             // nuint k = a;
-            
+
             float l = a;
             double m = a;
             decimal n = a;
@@ -149,7 +149,7 @@ namespace V3Runner
             // ulong i = a;
             // nint j = a;
             // nuint k = a;
-            
+
             float l = a;
             double m = a;
             decimal n = a;
@@ -168,7 +168,7 @@ namespace V3Runner
             ulong i = a;
             // nint j = a;
             nuint k = a;
-            
+
             float l = a;
             double m = a;
             decimal n = a;
@@ -187,7 +187,7 @@ namespace V3Runner
             // ulong i = a;
             nint j = a;
             // nuint k = a;
-            
+
             float l = a;
             double m = a;
             decimal n = a;
@@ -206,7 +206,7 @@ namespace V3Runner
             ulong i = a;
             nint j = a;
             nuint k = a;
-            
+
             float l = a;
             double m = a;
             decimal n = a;
@@ -225,7 +225,7 @@ namespace V3Runner
             // ulong i = a;
             nint j = a;
             // nuint k = a;
-            
+
             float l = a;
             double m = a;
             decimal n = a;
@@ -244,7 +244,7 @@ namespace V3Runner
             ulong i = a;
             nint j = a;
             nuint k = a;
-            
+
             float l = a;
             double m = a;
             decimal n = a;

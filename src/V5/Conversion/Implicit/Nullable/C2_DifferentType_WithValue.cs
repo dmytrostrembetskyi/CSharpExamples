@@ -1,8 +1,8 @@
 ﻿namespace V5.Conversion.Implicit.Nullable
 {
-    public class Case2
+    public class C2_DifferentType_WithValue
     {
-        public Case2()
+        public C2_DifferentType_WithValue()
         {
             int? a = 1;
             long? a2 = a;

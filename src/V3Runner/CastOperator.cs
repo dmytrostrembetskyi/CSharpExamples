@@ -1,5 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+
+// ReSharper disable RedundantExplicitArrayCreation
+// ReSharper disable SuggestVarOrType_Elsewhere
 
 namespace V3Runner
 {
@@ -13,14 +15,14 @@ namespace V3Runner
 
         void NewMethod()
         {
-            IEnumerable<int> a = new int[] {1, 2};
-            IList<int> b = (IList<int>) a;
+            IEnumerable<int> a = new int[] { 1, 2 };
+            IList<int> b = (IList<int>)a;
         }
 
         void NumericConversion()
         {
             var a = 1d;
-            var b = (int) a;
+            var b = (int)a;
         }
     }
 }

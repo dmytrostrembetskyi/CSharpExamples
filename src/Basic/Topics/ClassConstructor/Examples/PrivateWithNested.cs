@@ -10,7 +10,7 @@
         {
             public PrivateWithNested Create()
             {
-                return new();
+                return new PrivateWithNested();
             }
         }
     }

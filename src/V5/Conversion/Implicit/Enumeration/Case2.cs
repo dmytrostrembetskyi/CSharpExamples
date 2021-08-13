@@ -1,4 +1,6 @@
-﻿namespace V5.Conversion.Implicit.Enumeration
+﻿// ReSharper disable All
+
+namespace V5.Conversion.Implicit.Enumeration
 {
     public class Case2
     {

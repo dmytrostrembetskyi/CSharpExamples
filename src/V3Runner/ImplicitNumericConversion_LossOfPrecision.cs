@@ -18,13 +18,13 @@ namespace V3Runner
             Ulong();
             Nint();
             Nuint();
-            
+
             Float();
-            
+
             Double();
             Decimal();
         }
-        
+
         void Decimal()
         {
             decimal a = decimal.MaxValue;
@@ -54,7 +54,7 @@ namespace V3Runner
 
             float l = a;
             double m = a;
-            
+
             decimal n = a;
         }
 
@@ -177,7 +177,7 @@ namespace V3Runner
 
         static void Sbyte()
         {
-            sbyte a = SByte.MaxValue;
+            sbyte a = sbyte.MaxValue;
 
             short d = a;
             int f = a;

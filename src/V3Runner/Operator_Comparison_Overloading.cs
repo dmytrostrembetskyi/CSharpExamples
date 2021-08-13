@@ -32,7 +32,7 @@
                 return a;
             }
         }
-        
+
         class NotStrictOperand
         {
             public static NotStrictOperand operator <=(NotStrictOperand a, NotStrictOperand b)

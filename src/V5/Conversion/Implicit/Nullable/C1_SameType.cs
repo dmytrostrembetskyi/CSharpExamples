@@ -1,8 +1,8 @@
 ﻿namespace V5.Conversion.Implicit.Nullable
 {
-    public class Case1
+    public class C1_SameType
     {
-        public Case1()
+        public C1_SameType()
         {
             int a = 1;
             int? a2 = a;

@@ -14,12 +14,12 @@ namespace Basic.Topics.ClassConstructor.Examples
 
         public static Private Create()
         {
-            return new();
+            return new Private();
         }
 
         public static Private Create(int parameter1)
         {
-            return new(parameter1);
+            return new Private(parameter1);
         }
     }
 }

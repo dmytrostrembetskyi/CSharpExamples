@@ -1,4 +1,6 @@
 ﻿using V5.Conversion.Implicit.Enumeration;
+using V5.Conversion.Implicit.Nullable;
+using V5.Conversion.Implicit.NullLiteral;
 
 namespace V5
 {
@@ -11,11 +13,17 @@ namespace V5
             new Case3();
             new Case4();
             new Case5();
-            
+
             new Conversion.Implicit.InterpolatedString.Case1();
-            
-            new Conversion.Implicit.Nullable.Case1();
-            new Conversion.Implicit.Nullable.Case2();
+
+            new C1_SameType();
+            new C2_DifferentType_WithValue();
+            new C3_DifferentType_WithNull();
+
+            new ToAnyNullableType();
+
+            new Conversion.Implicit.Reference.AnyReferenceToObject();
+            new Conversion.Implicit.Reference.Case();
         }
     }
 }
