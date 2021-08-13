@@ -32,7 +32,7 @@ namespace V5
             new C4FromInterface();
             new C5FromInterfaceToInterface();
             new C6ArrayToArray();
-            
+            new C7ArrayToSystemArray();
             
         }
     }
