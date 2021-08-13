@@ -29,6 +29,9 @@ namespace V5
             new C1AnyReferenceToObject();
             new C2AnyReferenceToDynamic();
             new C3Derived();
+            new C4FromInterface();
+            new C5FromInterfaceToInterface();
+            
         }
     }
 }

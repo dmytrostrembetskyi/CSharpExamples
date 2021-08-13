@@ -9,7 +9,6 @@ namespace V5.Conversion.Implicit.C7Reference
         public C3Derived()
         {
             SimpleChild a = new SimpleChild();
-            // ReSharper disable once UnusedVariable
             SimpleParent a2 = a;
         }
     }
