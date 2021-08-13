@@ -1,4 +1,4 @@
-﻿namespace V5.Conversion.Implicit.Enumeration
+﻿namespace V5.Conversion.Implicit.C3Enumeration
 {
     public class Case5
     {

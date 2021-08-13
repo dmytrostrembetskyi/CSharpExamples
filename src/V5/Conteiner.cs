@@ -1,7 +1,8 @@
-﻿using V5.Conversion.Implicit.Enumeration;
-using V5.Conversion.Implicit.Nullable;
-using V5.Conversion.Implicit.NullLiteral;
-using V5.Conversion.Implicit.Reference;
+﻿using V5.Conversion.Implicit.C3Enumeration;
+using V5.Conversion.Implicit.C5Nullable;
+using V5.Conversion.Implicit.C6NullLiteral;
+using V5.Conversion.Implicit.C7Reference;
+using V5.Conversion.Implicit.Enumeration;
 
 namespace V5
 {
@@ -15,7 +16,7 @@ namespace V5
             new Case4();
             new Case5();
 
-            new Conversion.Implicit.InterpolatedString.Case1();
+            new Conversion.Implicit.C4InterpolatedString.Case1();
 
             new C1_SameType();
             new C2_DifferentType_WithValue();
@@ -23,8 +24,8 @@ namespace V5
 
             new ToAnyNullableType();
 
-            new AnyReferenceToObject();
-            new Case();
+            new C1AnyReferenceToObject();
+            new C2AnyReferenceToDynamic();
         }
     }
 }

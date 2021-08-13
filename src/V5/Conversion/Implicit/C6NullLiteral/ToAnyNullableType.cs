@@ -1,4 +1,4 @@
-﻿namespace V5.Conversion.Implicit.NullLiteral
+﻿namespace V5.Conversion.Implicit.C6NullLiteral
 {
     public class ToAnyNullableType
     {

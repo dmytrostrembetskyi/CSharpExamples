@@ -1,6 +1,6 @@
 ﻿// ReSharper disable ExpressionIsAlwaysNull
 
-namespace V5.Conversion.Implicit.Nullable
+namespace V5.Conversion.Implicit.C5Nullable
 {
     public class C3_DifferentType_WithNull
     {

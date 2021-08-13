@@ -1,6 +1,6 @@
 ﻿// ReSharper disable SuggestVarOrType_SimpleTypes
 
-namespace V5.Conversion.Implicit.Enumeration
+namespace V5.Conversion.Implicit.C3Enumeration
 {
     public class Case4
     {
