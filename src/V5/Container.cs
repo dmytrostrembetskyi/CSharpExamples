@@ -31,6 +31,8 @@ namespace V5
             new C3Derived();
             new C4FromInterface();
             new C5FromInterfaceToInterface();
+            new C6ArrayToArray();
+            
             
         }
     }
