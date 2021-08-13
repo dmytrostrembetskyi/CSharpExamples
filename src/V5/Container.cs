@@ -6,9 +6,9 @@ using V5.Conversion.Implicit.Enumeration;
 
 namespace V5
 {
-    public class Conteiner
+    public class Container
     {
-        public Conteiner()
+        public Container()
         {
             new Case1();
             new Case2();
@@ -26,6 +26,7 @@ namespace V5
 
             new C1AnyReferenceToObject();
             new C2AnyReferenceToDynamic();
+            new C3Derived();
         }
     }
 }
