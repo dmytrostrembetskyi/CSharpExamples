@@ -1,4 +1,5 @@
 ﻿// ReSharper disable NotAccessedField.Local
+// ReSharper disable HeuristicUnreachableCode
 
 #pragma warning disable 162
 

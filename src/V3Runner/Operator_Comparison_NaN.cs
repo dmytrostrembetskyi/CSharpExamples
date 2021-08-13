@@ -1,5 +1,6 @@
 ﻿// ReSharper disable EqualExpressionComparison
-// ReSharper disable ConvertToConstant.Local
+
+#pragma warning disable 1718
 
 namespace V3Runner
 {
