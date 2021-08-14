@@ -1,4 +1,5 @@
 // ReSharper disable SuggestVarOrType_Elsewhere
+// ReSharper disable UnusedTypeParameter
 
 namespace V5.Conversion.Implicit.C07Reference
 {
