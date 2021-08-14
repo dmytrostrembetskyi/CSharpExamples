@@ -44,7 +44,8 @@ namespace V5
 
             new C01AnyValueTypeToObject();
             new C02AnyValueTypeToSystemValueType();
-            
+            new C03NonNullableValueTypeToItsInterface();
+            new C04NullableValueTypeToItsInterface();
         }
     }
 }
