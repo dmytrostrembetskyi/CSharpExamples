@@ -4,7 +4,7 @@
     {
         public ToAnyNullableType()
         {
-            string a = null;
+            bool? a = null;
             int? b = null;
         }
     }

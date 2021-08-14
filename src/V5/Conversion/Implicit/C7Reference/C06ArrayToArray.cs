@@ -3,9 +3,9 @@
 
 namespace V5.Conversion.Implicit.C7Reference
 {
-    public class C6ArrayToArray
+    public class C06ArrayToArray
     {
-        public C6ArrayToArray()
+        public C06ArrayToArray()
         {
             string[] a = { "q", "w" };
             object[] a2 = a;

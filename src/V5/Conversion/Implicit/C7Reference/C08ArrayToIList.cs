@@ -5,9 +5,9 @@
 
 namespace V5.Conversion.Implicit.C7Reference
 {
-    public class C8ArrayToIList
+    public class C08ArrayToIList
     {
-        public C8ArrayToIList()
+        public C08ArrayToIList()
         {
             string[] a = { "q" };
             IList<object> a2 = a;

@@ -4,9 +4,9 @@
 
 namespace V5.Conversion.Implicit.C7Reference
 {
-    public class C2AnyReferenceToDynamic
+    public class C02AnyReferenceToDynamic
     {
-        public C2AnyReferenceToDynamic()
+        public C02AnyReferenceToDynamic()
         {
             Decoder a = Encoding.UTF8.GetDecoder();
             object a2 = a;

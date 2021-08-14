@@ -4,9 +4,9 @@
 
 namespace V5.Conversion.Implicit.C7Reference
 {
-    public class C3Derived
+    public class C03Derived
     {
-        public C3Derived()
+        public C03Derived()
         {
             SimpleChild a = new SimpleChild();
             SimpleParent a2 = a;

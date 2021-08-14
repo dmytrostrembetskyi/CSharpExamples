@@ -3,9 +3,9 @@ using System.Runtime.Serialization;
 
 namespace V5.Conversion.Implicit.C7Reference
 {
-    public class C9Delegate
+    public class C09Delegate
     {
-        public C9Delegate()
+        public C09Delegate()
         {
             DelegateExample a = Method;
             Delegate a2 = a;

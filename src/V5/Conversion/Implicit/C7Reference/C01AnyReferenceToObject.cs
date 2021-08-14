@@ -5,9 +5,9 @@ using System.Text;
 
 namespace V5.Conversion.Implicit.C7Reference
 {
-    public class C1AnyReferenceToObject
+    public class C01AnyReferenceToObject
     {
-        public C1AnyReferenceToObject()
+        public C01AnyReferenceToObject()
         {
             var a = new String("Hello");
             object a2 = a;

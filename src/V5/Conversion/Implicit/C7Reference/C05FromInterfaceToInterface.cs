@@ -1,8 +1,8 @@
 ﻿namespace V5.Conversion.Implicit.C7Reference
 {
-    public class C5FromInterfaceToInterface
+    public class C05FromInterfaceToInterface
     {
-        public C5FromInterfaceToInterface()
+        public C05FromInterfaceToInterface()
         {
             IChild a = new Class();
             IParent a2 = a;

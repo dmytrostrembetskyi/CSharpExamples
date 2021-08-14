@@ -2,9 +2,9 @@
 
 namespace V5.Conversion.Implicit.C7Reference
 {
-    public class C4FromInterface
+    public class C04FromInterface
     {
-        public C4FromInterface()
+        public C04FromInterface()
         {
             Class a = new Class();
             IInterface a2 = a;
