@@ -35,10 +35,12 @@ namespace V5
             new C07ArrayToSystemArray();
             new C08ArrayToIList();
             new C09Delegate();
-            new C10NullLiteralToAnyReferenceType();
+            new C10NullLiteral();
             new C11Dynamic();
             new C12Covariance();
             new C13Contravariance();
+            new C14TypeParameters();
+            
         }
     }
 }

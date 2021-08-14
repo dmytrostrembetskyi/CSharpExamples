@@ -2,9 +2,9 @@ using System.Text;
 
 namespace V5.Conversion.Implicit.C7Reference
 {
-    public class C10NullLiteralToAnyReferenceType
+    public class C10NullLiteral
     {
-        public C10NullLiteralToAnyReferenceType()
+        public C10NullLiteral()
         {
             object a = null;
 
