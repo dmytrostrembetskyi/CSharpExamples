@@ -36,8 +36,7 @@ namespace V5
             new C08ArrayToIList();
             new C09Delegate();
             new C10NullLiteralToAnyReferenceType();
-            
-            
+            new C11Dynamic();
         }
     }
 }
