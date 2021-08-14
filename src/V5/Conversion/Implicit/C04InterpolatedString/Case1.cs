@@ -4,7 +4,7 @@
 // ReSharper disable SuggestVarOrType_BuiltInTypes
 // ReSharper disable PossiblyMistakenUseOfInterpolatedStringInsert
 
-namespace V5.Conversion.Implicit.C4InterpolatedString
+namespace V5.Conversion.Implicit.C04InterpolatedString
 {
     public class Case1
     {

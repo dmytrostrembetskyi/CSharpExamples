@@ -1,7 +1,8 @@
-﻿using V5.Conversion.Implicit.C3Enumeration;
-using V5.Conversion.Implicit.C5Nullable;
-using V5.Conversion.Implicit.C6NullLiteral;
-using V5.Conversion.Implicit.C7Reference;
+﻿using V5.Conversion.Implicit.C03Enumeration;
+using V5.Conversion.Implicit.C05Nullable;
+using V5.Conversion.Implicit.C06NullLiteral;
+using V5.Conversion.Implicit.C07Reference;
+using V5.Conversion.Implicit.C08Boxing;
 using V5.Conversion.Implicit.Enumeration;
 
 // ReSharper disable ObjectCreationAsStatement
@@ -18,7 +19,7 @@ namespace V5
             new Case4();
             new Case5();
 
-            new Conversion.Implicit.C4InterpolatedString.Case1();
+            new Conversion.Implicit.C04InterpolatedString.Case1();
 
             new C1SameType();
             new C2DifferentTypeWithValue();
@@ -40,6 +41,8 @@ namespace V5
             new C12Covariance();
             new C13Contravariance();
             new C14TypeParameters();
+
+            new C01();
             
         }
     }

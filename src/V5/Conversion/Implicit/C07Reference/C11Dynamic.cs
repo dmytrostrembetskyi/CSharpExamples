@@ -3,7 +3,7 @@ using System.Collections.Generic;
 // ReSharper disable SuggestVarOrType_BuiltInTypes
 // ReSharper disable SuggestVarOrType_Elsewhere
 
-namespace V5.Conversion.Implicit.C7Reference
+namespace V5.Conversion.Implicit.C07Reference
 {
     public class C11Dynamic
     {

@@ -3,7 +3,7 @@
 // ReSharper disable SuggestVarOrType_BuiltInTypes
 // ReSharper disable CoVariantArrayConversion
 
-namespace V5.Conversion.Implicit.C7Reference
+namespace V5.Conversion.Implicit.C07Reference
 {
     public class C08ArrayToIList
     {

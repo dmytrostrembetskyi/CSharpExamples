@@ -2,7 +2,7 @@
 // ReSharper disable UnusedType.Global
 // ReSharper disable UnusedMember.Global
 
-namespace V5.Conversion.Implicit.C3Enumeration
+namespace V5.Conversion.Implicit.C03Enumeration
 {
     public class Case5
     {
