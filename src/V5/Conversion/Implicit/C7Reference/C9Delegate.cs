@@ -4,6 +4,7 @@
     {
         public C9Delegate()
         {
+            
         }
     }
 }
