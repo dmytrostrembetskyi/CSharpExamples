@@ -37,6 +37,8 @@ namespace V5
             new C09Delegate();
             new C10NullLiteralToAnyReferenceType();
             new C11Dynamic();
+            new C12Covariance();
+            new C13Contravariance();
         }
     }
 }
