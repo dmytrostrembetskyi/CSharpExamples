@@ -1,10 +1,12 @@
-﻿namespace V5
+﻿using V5.C06Conversions;
+
+namespace V5
 {
     public class Container
     {
         public Container()
         {
-            new C06Conversion.Conversion();
+            new Conversions();
         }
     }
 }
