@@ -1,8 +1,8 @@
-﻿using V5.Conversion.Implicit.C03Enumeration;
-using V5.Conversion.Implicit.C05Nullable;
-using V5.Conversion.Implicit.C06NullLiteral;
-using V5.Conversion.Implicit.C07Reference;
-using V5.Conversion.Implicit.C08Boxing;
+﻿using V5.C06Conversion.Implicit.C03Enumeration;
+using V5.C06Conversion.Implicit.C05Nullable;
+using V5.C06Conversion.Implicit.C06NullLiteral;
+using V5.C06Conversion.Implicit.C07Reference;
+using V5.C06Conversion.Implicit.C08Boxing;
 using V5.Conversion.Implicit.Enumeration;
 
 // ReSharper disable ObjectCreationAsStatement
@@ -19,7 +19,7 @@ namespace V5
             new Case4();
             new Case5();
 
-            new Conversion.Implicit.C04InterpolatedString.Case1();
+            new C06Conversion.Implicit.C04InterpolatedString.Case1();
 
             new C1SameType();
             new C2DifferentTypeWithValue();
@@ -48,7 +48,8 @@ namespace V5
             new C04NullableValueTypeToItsInterface();
             new C05AnyEnumTypeToSystemEnum();
             new C06NullableEnumToSystemEnum();
-            
+            new C07();
+
         }
     }
 }

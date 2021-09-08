@@ -1,0 +1,15 @@
+﻿using V5.Utils;
+
+// ReSharper disable SuggestVarOrType_SimpleTypes
+
+namespace V5.C06Conversion.Implicit.C07Reference
+{
+    public class C03Derived
+    {
+        public C03Derived()
+        {
+            SimpleChild a = new SimpleChild();
+            SimpleParent a2 = a;
+        }
+    }
+}
