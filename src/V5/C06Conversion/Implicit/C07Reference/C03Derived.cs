@@ -1,6 +1,4 @@
-﻿using V5.Utils;
-
-// ReSharper disable SuggestVarOrType_SimpleTypes
+﻿// ReSharper disable SuggestVarOrType_SimpleTypes
 
 namespace V5.C06Conversion.Implicit.C07Reference
 {
@@ -8,8 +6,16 @@ namespace V5.C06Conversion.Implicit.C07Reference
     {
         public C03Derived()
         {
-            SimpleChild a = new SimpleChild();
-            SimpleParent a2 = a;
+            Child a = new Child();
+            Parent a2 = a;
+        }
+
+        class Parent
+        {
+        }
+
+        class Child : Parent
+        {
         }
     }
 }
