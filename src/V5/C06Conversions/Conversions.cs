@@ -3,6 +3,7 @@ using V5.C06Conversions.Implicit.C05Nullable;
 using V5.C06Conversions.Implicit.C06NullLiteral;
 using V5.C06Conversions.Implicit.C07Reference;
 using V5.C06Conversions.Implicit.C08Boxing;
+using V5.C06Conversions.Implicit.C09Dynamic;
 using V5.Conversion.Implicit.Enumeration;
 
 namespace V5.C06Conversions
@@ -46,7 +47,9 @@ namespace V5.C06Conversions
             new C04NullableValueTypeToItsInterface();
             new C05AnyEnumTypeToSystemEnum();
             new C06NullableEnumToSystemEnum();
-            new C07();
+
+            new C01AnyTypeToDynamic();
+            new C02DynamicToObject();
         }
     }
 }
