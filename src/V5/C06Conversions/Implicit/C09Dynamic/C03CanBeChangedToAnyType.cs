@@ -1,7 +1,4 @@
-﻿using System;
-using System.Diagnostics;
-
-namespace V5.C06Conversions.Implicit.C09Dynamic
+﻿namespace V5.C06Conversions.Implicit.C09Dynamic
 {
     public class C03CanBeChangedToAnyType
     {

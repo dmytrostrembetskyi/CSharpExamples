@@ -51,7 +51,6 @@ namespace V5.C06Conversions
             new C01AnyTypeToDynamic();
             new C02DynamicToObject();
             new C03CanBeChangedToAnyType();
-            
         }
     }
 }
