@@ -5,7 +5,7 @@
         public C03CanBeChangedToAnyType()
         {
             dynamic a1 = 1.0;
-            a1 = "hello";
+            a1 = 1f;
 
             dynamic a2 = 1;
             a2 = 10L;
