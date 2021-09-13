@@ -4,6 +4,7 @@ using V5.C06Conversions.Implicit.C06NullLiteral;
 using V5.C06Conversions.Implicit.C07Reference;
 using V5.C06Conversions.Implicit.C08Boxing;
 using V5.C06Conversions.Implicit.C09Dynamic;
+using V5.C06Conversions.Implicit.C10ConstantExpression;
 using V5.Conversion.Implicit.Enumeration;
 
 namespace V5.C06Conversions
@@ -51,6 +52,20 @@ namespace V5.C06Conversions
             new C01AnyTypeToDynamic();
             new C02DynamicToObject();
             new C03CanBeChangedToAnyType();
+
+            new C01NumericSByte();
+            new C02NumericByte();
+            new C03NumericShort();
+            new C04NumericUShort();
+            new C05NumericInt();
+            new C06NumericUInt();
+            new C07NumericLong();
+            new C08NumericULong();
+            new C09NumericNInt();
+            new C10NumericNUInt();
+            new C11NumericFloat();
+            new C12NumericDouble();
+            new C13NumericDecimal();
         }
     }
 }
