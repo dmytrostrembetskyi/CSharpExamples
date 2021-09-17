@@ -5,6 +5,7 @@ using V5.C06Conversions.Implicit.C07Reference;
 using V5.C06Conversions.Implicit.C08Boxing;
 using V5.C06Conversions.Implicit.C09Dynamic;
 using V5.C06Conversions.Implicit.C10ConstantExpression;
+using V5.C06Conversions.Implicit.C11TypeParameters;
 using V5.Conversion.Implicit.Enumeration;
 
 namespace V5.C06Conversions
@@ -66,6 +67,11 @@ namespace V5.C06Conversions
             new C11NumericFloat();
             new C12NumericDouble();
             new C13NumericDecimal();
+
+            new C01IdentityConversion();
+            new C02EffectiveBaseClass();
+            new C03AnyBaseClass();
+            new C04AnyInterface();
         }
     }
 }
